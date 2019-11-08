@@ -1,11 +1,13 @@
 .App {
   text-align: center;
+  display: flex;
+  
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
-}
-
+} */
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -19,4 +21,74 @@
 
 .App-link {
   color: #09d3ac;
+} */
+
+.title{
+  padding-top: 50px;
+  background: black;
+  width: 35%;
+  height: 800px;
+  color: green;
+  
+}
+.title h2{
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+.Input label input{
+  margin-left: 10px; 
+  height: 40px;
+  width: 200px;
+  background-color: black;
+  border: 2px solid lime;
+  color: green; 
+  padding-left: 25px; 
+  font-size: 1.2rem; 
+}
+label{
+  font-size: 1.4rem; 
+}
+.Input input{
+  margin-left: 20px;
+  margin-top: 20px; 
+  width: 60px; 
+  height: 40px;
+  background-color: black; 
+  border: 2px solid lime; 
+  color: lime; 
+
+}
+
+.main{
+  background-color: ghostwhite;
+  width: 65%;
+}
+
+.header{
+  margin-top: 40px; 
+  margin-bottom: 40px; 
+  font-size: 2rem; 
+}
+.streaming{ 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  background-color: grey; 
+}
+ul{
+
+  padding-left: -50px;  
+}
+li{
+  margin: 0; 
+  padding-left: 0;
+}
+
+.Streaming{
+    padding-top: 30px; 
+    padding-left: 0px;
+    height: 40px;
+    width: 200px;
+    border-bottom: 2px solid green; 
+
 }
